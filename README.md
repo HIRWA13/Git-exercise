@@ -66,7 +66,7 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
 
    - We all make mistakes. Imagine needing to completely remove an unwanted commit from your history.
 
-   - Create a new file named `unwanted.txt` and commit it with a message like "Unwanted commit".
+   - Create a new file named `unwanted.txt` add some changes and commit it with a message like "Unwanted commit".
 
    **Challenge:** Use `git rebase -i` to identify and remove the "Unwanted commit" commit, cleaning up your history. learn more about `dropping commits` [here](https://articles.assembla.com/en/articles/2941346-how-to-delete-commits-from-a-branch-in-git)
 
@@ -76,15 +76,16 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
 
 8. **Cherry-Picking Commits:**
 
-   - Imagine you only desire a specific commit from another branch. Research and use `git cherry-pick` to selectively bring that commit into your current branch.
+   - Create a branch, call it `feature/branch` and add a new file named `test5.md` with some content. Commit these changes with a message like "Implemented test 5".
+   - Imagine you only desire a specific commit from `feature/branch`. Research and use `git cherry-pick` to selectively bring that commit into your current branch which `main`.
    
    learn more about `cherry-pick` [here](https://www.freecodecamp.org/news/git-cherry-pick-avoid-duplicate-commits/)
 
-9. **Visualizing Commit History:**
+9. **Visualizing Commit History (Bonus):**
 
    - Tools like `git log --graph` or a graphical Git client can help visualize your commit history. Explore these tools for a clearer understanding of your workflow.
 
-10. **Understanding Reflogs:**
+10. **Understanding Reflogs (Bonus):**
 
    - Reflogs track Git operation history. Research about `git reflog` to learn how you can navigate back to previous states in your repository if needed.
 
@@ -110,7 +111,7 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
 
 4. **Local vs. Remote Branches:**
 
-   - So far, we've been working with local branches that exist on your machine. Research the concept of remote branches, which are copies of your local branches stored on a Git hosting platform like GitHub. Learn how to push your local branches to remote repositories and pull changes from them to keep your local and remote repositories in sync.
+   - So far, we've been working with local branches that exist on your machine. Research the concept of remote branches, which are copies of your local branches stored on a Git hosting platform like GitHub. [Learn](https://www.baeldung.com/ops/git-synchronize-local-remote-branches) how to push your local branches to remote repositories and pull changes from them to keep your local and remote repositories in sync.
 
 5. **Branch Deletion:**
 
@@ -134,7 +135,7 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
 
    - Rebasing is another method to integrate changes from a feature branch. It rewrites your branch history by incorporating its commits on top of the latest commit in the target branch (`main` in our case).
 
-   **Challenge:** Try rebasing the `new-branch-from-commit` branch onto the `main` branch. Remember, rebasing rewrites history, so use it with caution, especially in shared repositories.
+   **Challenge:** Try rebasing the `new-branch-from-commit` branch onto the `main` branch. Remember, rebasing rewrites history, so use it with caution, especially in shared repositories. learn more about rebasing [here](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase#:~:text=From%20a%20content%20perspective%2C%20rebasing,them%20to%20the%20specified%20base.)
 
 9. **Renaming Branches:**
 
@@ -195,7 +196,7 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
 
    - Once you're happy with your local changes and branches, it's time to share them with others.
 
-   **Challenge:** Assuming you've set up a remote repository on a Git hosting platform (like GitHub), use `git push origin <branch-name>` (replace `<branch-name>` with the actual branch you want to push) to push your local branch to the remote repository.
+   **Challenge:** Assuming you've set up a remote repository on a Git hosting platform (like GitHub), push the changes with the actual branch you want to push to push your local branch to the remote repository.
 
 10. **Pulling Changes from Remote Repositories:**
 
