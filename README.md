@@ -57,7 +57,9 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
 
    - We all make mistakes. Imagine needing to completely remove an unwanted commit from your history.
 
-   **Challenge:** Use `git rebase -i` to identify and remove this commit, cleaning up your history. learn more about `dropping commits` [here](https://articles.assembla.com/en/articles/2941346-how-to-delete-commits-from-a-branch-in-git)
+   - Create a new file named `unwanted.txt` and commit it with a message like "Unwanted commit".
+
+   **Challenge:** Use `git rebase -i` to identify and remove the "Unwanted commit" commit, cleaning up your history. learn more about `dropping commits` [here](https://articles.assembla.com/en/articles/2941346-how-to-delete-commits-from-a-branch-in-git)
 
 7. **Reordering Commits:**
 
@@ -176,9 +178,7 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
    **Challenge:** Use `git tag v1.0` to create a tag named `v1.0` on the current commit in your `main` branch.  [git tags](https://www.javatpoint.com/git-tags)
 
 
-**Part 3: Advanced Workflows (Continued)**
-
-8. **Listing and Deleting Tags (Continued):**
+8. **Listing and Deleting Tags:**
 
    **Challenge:** Use `git tag` to list all existing tags. Then, use `git tag -d <tag-name>` to delete a specific tag (replace `<tag-name>` with the actual tag you want to remove).
 
@@ -192,4 +192,4 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
 
    - Collaboration often involves pulling changes from the remote repository made by others.
 
-   **Challenge:** Use `git pull origin <branch-name>` (replace `<branch-name>` with the actual branch you want to pull) to fetch changes from the remote repository's `main` branch and merge them into your local `main` branch. Address any merge conflicts that might arise.
+   **Challenge:** Navigate to Github and make some changes inside your `README` file that you created on your `main` branch and in your local environment use `git pull origin <branch-name>` (replace `<branch-name>` with the actual branch you want to pull) to fetch changes from the remote repository's `main` branch and merge them into your local `main` branch. Address any merge conflicts that might arise.
