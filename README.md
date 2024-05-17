@@ -2,6 +2,10 @@
 
 Welcome to the ultimate Git training ground! This comprehensive exercise combines essential Git skills, from manipulating history to advanced branching strategies.
 
+## Git Commit Best Practices
+
+- [Commit Best Practices](https://www.conventionalcommits.org/en/v1.0.0/)
+
 **Getting Started:**
 
 1. **Create a New Git Repository:**
@@ -18,7 +22,12 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
    git add test3.md && git commit -m "Create third and fourth files"
    ```
 
-**Challenges:**
+## Submitting your solution
+
+- Copy your terminal history after finishing each exercise Part and then paste it into a google docs file as shown in this [example](https://docs.google.com/document/d/1oAfzMbraTbP_wLBc_FrcOKJLkj494GskA3g2U0HzUGg/edit?usp=sharing)
+
+
+## Challenges:
 
 **Part 1: Refining Git History (10 Challenges)**
 
