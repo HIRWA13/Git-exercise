@@ -122,7 +122,7 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
 
    - You can also create a branch from a specific commit in your history.
 
-   **Challenge:** Use `git checkout -b new-branch-from-commit HEAD~2` (adjust the commit hash as needed) to create a new branch named `new-branch-from-commit` starting from the commit two positions back in your history.
+   **Challenge:** Use `git checkout -b new-branch-from-commit commit-hash` (adjust the commit hash as needed) to create a new branch named `new-branch-from-commit` starting from the commit two positions back in your history. learn more [here](https://www.novicedev.com/blog/create-git-branch-commit)
 
 7. **Branch Merging:**
 
