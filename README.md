@@ -31,7 +31,7 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
 
 2. **Editing Commit History:**
 
-   - It's crucial to maintain accurate commit messages. Let's say you want to modify the message for "Create another file" to "Create second file".
+   - It's crucial to maintain accurate commit messages. Modify the message for "Create another file" to "Create second file".
 
    **Challenge:** Utilize interactive rebasing (`git rebase -i HEAD~2`) to edit the commit message and ensure clarity. learn more about git `rebase` [here](https://www.bryanbraun.com/2019/02/23/editing-a-commit-in-an-interactive-rebase/)
 
@@ -71,7 +71,7 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
    
    learn more about `cherry-pick` [here](https://www.freecodecamp.org/news/git-cherry-pick-avoid-duplicate-commits/)
 
-9. **Visualizing Commit History (Bonus):**
+9. **Visualizing Commit History:**
 
    - Tools like `git log --graph` or a graphical Git client can help visualize your commit history. Explore these tools for a clearer understanding of your workflow.
 
@@ -121,11 +121,11 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
 
    **Challenge:** Merge the `new-branch-from-commit` branch into the `main` branch. Address any merge conflicts that might arise.
 
-8. **Branch Rebasing (Optional):**
+8. **Branch Rebasing:**
 
    - Rebasing is another method to integrate changes from a feature branch. It rewrites your branch history by incorporating its commits on top of the latest commit in the target branch (`main` in our case).
 
-   **Challenge (Optional):** Try rebasing the `new-branch-from-commit` branch onto the `main` branch. Remember, rebasing rewrites history, so use it with caution, especially in shared repositories.
+   **Challenge:** Try rebasing the `new-branch-from-commit` branch onto the `main` branch. Remember, rebasing rewrites history, so use it with caution, especially in shared repositories.
 
 9. **Renaming Branches:**
 
@@ -133,7 +133,7 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
 
    **Challenge:** Use `git branch -m new-branch-from-commit improved-branch-name` to rename your branch.
 
-10. **Checking Out Detached HEAD (Bonus):**
+10. **Checking Out Detached HEAD:**
 
    - In specific situations, you might need to detach HEAD from your current branch. Research `git checkout <commit-hash>` (replace with the desired commit hash) to understand this concept.
 
@@ -155,13 +155,13 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
 
    - Merge conflicts can arise when the same lines of code are modified in both branches being merged.
 
-   **Challenge (Optional):** Simulate a merge conflict scenario (you can create conflicting changes in a file on both `main` and a new feature branch). Then, try merging again and resolve the conflicts manually using your text editor.
+   **Challenge:** Simulate a merge conflict scenario (you can create conflicting changes in a file on both `main` and a new feature branch). Then, try merging again and resolve the conflicts manually using your text editor.
 
-4. **Resolving Merge Conflicts with a Merge Tool (Bonus):**
+4. **Resolving Merge Conflicts with a Merge Tool:**
 
    - Explore using a merge tool like `git mergetool` to help you visualize and resolve merge conflicts more efficiently.
 
-5. **Understanding Detached HEAD State (Bonus):**
+5. **Understanding Detached HEAD State:**
 
    - Detached HEAD refers to a state where your working directory is not associated with any specific branch. Research the implications and how to recover from this state using commands like `git checkout <branch-name>`.
 
