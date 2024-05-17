@@ -18,7 +18,7 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
    git add test3.md && git commit -m "Create third and fourth files"
    ```
 
-**Challenges (30+ total):**
+**Challenges:**
 
 **Part 1: Refining Git History (10 Challenges)**
 
