@@ -9,7 +9,7 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
 **Getting Started:**
 
 1. **Create a New Git Repository:**
-   - Head over to GitHub and create a new repository. Clone this repository to your local machine using a Git client.
+   - Head over to GitHub and create a new repository. Clone this repository to your local machine.
 
 2. **Initialize Your Environment:**
    - Open a terminal window and navigate to your cloned repository directory.
