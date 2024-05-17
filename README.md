@@ -3,7 +3,7 @@
 Welcome to the ultimate Git training ground! This comprehensive exercise combines essential Git skills, from manipulating history to advanced branching strategies.
 
 ## Git Commit Best Practices
-
+Before starting this exercise, we recommend reading the best practices in this article and try to use them as much as you can. 
 - [Commit Best Practices](https://www.conventionalcommits.org/en/v1.0.0/)
 
 **Getting Started:**
@@ -24,7 +24,7 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
 
 ## Submitting your solution
 
-- Copy your terminal history after finishing each exercise Part and then paste it into a google docs file as shown in this [example](https://docs.google.com/document/d/1oAfzMbraTbP_wLBc_FrcOKJLkj494GskA3g2U0HzUGg/edit?usp=sharing)
+- Copy your terminal history after finishing each exercise Part and then paste it into a Google Docs file as shown in this [example](https://docs.google.com/document/d/1oAfzMbraTbP_wLBc_FrcOKJLkj494GskA3g2U0HzUGg/edit?usp=sharing)
 
 
 ## Challenges:
@@ -40,7 +40,7 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
 
 2. **Editing Commit History:**
 
-   - It's crucial to maintain accurate commit messages. Modify the message for "Create another file" to "Create second file".
+   - It's crucial to maintain accurate commit messages. Modify the message from "Create another file" to "Create second file".
 
    **Challenge:** Utilize interactive rebasing (`git rebase -i HEAD~2`) to edit the commit message and ensure clarity. learn more about git `rebase` [here](https://www.bryanbraun.com/2019/02/23/editing-a-commit-in-an-interactive-rebase/)
 
@@ -76,8 +76,8 @@ Welcome to the ultimate Git training ground! This comprehensive exercise combine
 
 8. **Cherry-Picking Commits:**
 
-   - Create a branch, call it `feature/branch` and add a new file named `test5.md` with some content. Commit these changes with a message like "Implemented test 5".
-   - Imagine you only desire a specific commit from `feature/branch`. Research and use `git cherry-pick` to selectively bring that commit into your current branch which `main`.
+   - Create a branch, call it `feature/branch`, and add a new file named `test5.md` with some content. Commit these changes with a message like "Implemented test 5".
+   - Imagine you only desire a specific commit from `feature/branch`. Research and use `git cherry-pick` to selectively bring that commit into your current branch which is `main`.
    
    learn more about `cherry-pick` [here](https://www.freecodecamp.org/news/git-cherry-pick-avoid-duplicate-commits/)
 
