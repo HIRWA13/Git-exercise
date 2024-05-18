@@ -2,10 +2,12 @@
 
 This comprehensive exercise combines essential Git skills, from manipulating history to advanced branching strategies.
 
-**Git Commit Best Practices:**
+### Resources
 
-Before starting this exercise, Read the conventional commits in this article and try to use them as much as you can.
-- [Commit Best Practices](https://www.conventionalcommits.org/en/v1.0.0/)
+Before starting this exercise, Go through **Branching Model** and **Contribution rules and git flow** resources. When attempting the challenges, Try to use what you read as much as you can.
+
+- [Branching Model](https://classic-cobalt-104.notion.site/Branching-model-c1f8f9686eef4d3594a8c1ca4955d451)
+- [Contribution rules and git flow](https://classic-cobalt-104.notion.site/Contribution-rules-and-git-flow-0505d789170f4c0a8b7b5d7b41df7bf5)
 
 **Getting Started:**
 
@@ -18,9 +20,9 @@ Before starting this exercise, Read the conventional commits in this article and
 
    ```bash
    touch test{1..4}.md
-   git add test1.md && git commit -m "Create initial file"
-   git add test2.md && git commit -m "Create another file"
-   git add test3.md && git commit -m "Create third and fourth files"
+   git add test1.md && git commit -m "chore: Create initial file"
+   git add test2.md && git commit -m "chore: Create another file"
+   git add test3.md && git commit -m "chore: Create third and fourth files"
    ```
 
 ## Submitting your solution
@@ -77,8 +79,8 @@ Before starting this exercise, Read the conventional commits in this article and
 
 8. **Cherry-Picking Commits:**
 
-   - Create a branch, call it `feature/branch`, and add a new file named `test5.md` with some content. Commit these changes with a message like "Implemented test 5".
-   - Imagine you only desire a specific commit from `feature/branch`. Research and use `git cherry-pick` to selectively bring that commit into your current branch which is `main`.
+   - Create a branch, call it `ft/branch`, and add a new file named `test5.md` with some content. Commit these changes with a message like "Implemented test 5".
+   - Imagine you only desire a specific commit from `ft/branch`. Research and use `git cherry-pick` to selectively bring that commit into your current branch which is `main`.
    
    learn more about `cherry-pick` [here](https://www.freecodecamp.org/news/git-cherry-pick-avoid-duplicate-commits/)
 
@@ -94,9 +96,9 @@ Before starting this exercise, Read the conventional commits in this article and
 
 1. **Feature Branch Creation:**
 
-   - Imagine working on a new feature named `new-feature`. Let's establish a dedicated branch for it.
+   - Imagine working on a new feature named `ft/new-feature`. Let's establish a dedicated branch for it.
 
-   **Challenge:** Create a new branch named `feature/new-feature` and switch to that branch.
+   **Challenge:** Create a new branch named `ft/new-feature` and switch to that branch.
 
 2. **Working on the Feature Branch:**
 
@@ -118,31 +120,31 @@ Before starting this exercise, Read the conventional commits in this article and
 
    - After merging or completing work on a feature branch, it's good practice to remove it.
 
-   **Challenge:** Delete the `feature/new-feature` branch once you're confident the changes are integrated into `main`.
+   **Challenge:** Delete the `ft/new-feature` branch once you're confident the changes are integrated into `main`.
 
 6. **Creating a Branch from a Commit:**
 
    - You can also create a branch from a specific commit in your history.
 
-   **Challenge:** Use `git checkout -b new-branch-from-commit commit-hash` (adjust the commit hash as needed) to create a new branch named `new-branch-from-commit` starting from the commit two positions back in your history. learn more [here](https://www.novicedev.com/blog/create-git-branch-commit)
+   **Challenge:** Use `git checkout -b ft/new-branch-from-commit commit-hash` (adjust the commit hash as needed) to create a new branch named `ft/new-branch-from-commit` starting from the commit two positions back in your history. learn more [here](https://www.novicedev.com/blog/create-git-branch-commit)
 
 7. **Branch Merging:**
 
    - Now that you've completed work on your feature branch, it's time to integrate it into `main`.
 
-   **Challenge:** Merge the `new-branch-from-commit` branch into the `main` branch. Address any merge conflicts that might arise.
+   **Challenge:** Merge the `ft/new-branch-from-commit` branch into the `main` branch. Address any merge conflicts that might arise.
 
 8. **Branch Rebasing:**
 
    - Rebasing is another method to integrate changes from a feature branch. It rewrites your branch history by incorporating its commits on top of the latest commit in the target branch (`main` in our case).
 
-   **Challenge:** Try rebasing the `new-branch-from-commit` branch onto the `main` branch. Remember, rebasing rewrites history, so use it with caution, especially in shared repositories. learn more about rebasing [here](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase#:~:text=From%20a%20content%20perspective%2C%20rebasing,them%20to%20the%20specified%20base.)
+   **Challenge:** Try rebasing the `ft/new-branch-from-commit` branch onto the `main` branch. Remember, rebasing rewrites history, so use it with caution, especially in shared repositories. learn more about rebasing [here](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase#:~:text=From%20a%20content%20perspective%2C%20rebasing,them%20to%20the%20specified%20base.)
 
 9. **Renaming Branches:**
 
-   - Branch names can sometimes evolve. Let's rename `new-branch-from-commit` to a more descriptive name.
+   - Branch names can sometimes evolve. Let's rename `ft/new-branch-from-commit` to a more descriptive name.
 
-   **Challenge:** Use `git branch -m new-branch-from-commit improved-branch-name` to rename your branch.
+   **Challenge:** Use `git branch -m ft/new-branch-from-commit ft/improved-branch-name` to rename your branch.
 
 10. **Checking Out Detached HEAD:**
 
