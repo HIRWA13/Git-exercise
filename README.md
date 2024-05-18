@@ -9,7 +9,7 @@ Before starting this exercise, Go through **Branching Model** and **Contribution
 - [Branching Model](https://classic-cobalt-104.notion.site/Branching-model-c1f8f9686eef4d3594a8c1ca4955d451)
 - [Contribution rules and git flow](https://classic-cobalt-104.notion.site/Contribution-rules-and-git-flow-0505d789170f4c0a8b7b5d7b41df7bf5)
 
-**Getting Started:**
+### Getting Started:
 
 1. **Create a New Git Repository:**
    - Head over to GitHub and create a new repository. Clone this repository to your local machine.
