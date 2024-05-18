@@ -1,6 +1,6 @@
 # Git Exercises
 
-Welcome to the ultimate Git training ground! This comprehensive exercise combines essential Git skills, from manipulating history to advanced branching strategies.
+This comprehensive exercise combines essential Git skills, from manipulating history to advanced branching strategies.
 
 **Git Commit Best Practices:**
 
@@ -90,7 +90,7 @@ Before starting this exercise, Read the conventional commits in this article and
 
    - Reflogs track Git operation history. Research about `git reflog` to learn how you can navigate back to previous states in your repository if needed.
 
-**Part 2: Branching Mastery (10 Challenges)**
+**Part 2: Branching Basics (10 Challenges)**
 
 1. **Feature Branch Creation:**
 
