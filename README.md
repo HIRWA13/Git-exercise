@@ -2,7 +2,8 @@
 
 Welcome to the ultimate Git training ground! This comprehensive exercise combines essential Git skills, from manipulating history to advanced branching strategies.
 
-## Git Commit Best Practices
+**Git Commit Best Practice:s**
+
 Before starting this exercise, Read the conventional commits in this article and try to use them as much as you can.
 - [Commit Best Practices](https://www.conventionalcommits.org/en/v1.0.0/)
 
