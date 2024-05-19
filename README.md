@@ -24,12 +24,7 @@ Before starting this exercise, Go through **Branching Model** and **Contribution
    git add test2.md && git commit -m "chore: Create another file"
    git add test3.md && git commit -m "chore: Create third and fourth files"
    ```
-
-## Submitting your solution
-
-- Copy your terminal history after finishing each exercise Part and then paste it into a Google Docs file as shown in this [example](https://docs.google.com/document/d/1oAfzMbraTbP_wLBc_FrcOKJLkj494GskA3g2U0HzUGg/edit?usp=sharing)
-
-
+   
 ## Challenges:
 
 **Part 1: Refining Git History (10 Challenges)**
